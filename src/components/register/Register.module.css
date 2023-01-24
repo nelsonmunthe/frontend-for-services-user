@@ -1,0 +1,43 @@
+.registration{
+    display: flex;
+    flex-direction: column;
+    background: #F8F9FB;
+    padding: 20px 40px;
+    margin: auto;
+    /* text-align: center; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    gap: 10px;
+    position: absolute;
+    width: 350px;
+    border-radius: 5px;
+};
+
+.registration .form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.registration .submit{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+button{
+    width: 40%;
+    height: 30px;
+}
+
+input, textarea, select {
+    width: 50%;
+}
+
+option{
+    background-color: white;
+    border-radius: 4px;
+    margin: 0;
+    padding: 0;
+}

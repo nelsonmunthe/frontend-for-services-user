@@ -1,0 +1,28 @@
+.roles{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.searching{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 10px;
+    text-align: left;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.searching input{
+    width: 200px;
+}
+
+.searching button{
+    width: 100px;
+}
